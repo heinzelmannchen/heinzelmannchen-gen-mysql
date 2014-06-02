@@ -1,0 +1,42 @@
+{
+  "name": "heinzelmannchen-gen-mysql",
+  "version": "1.0.2",
+  "description": "PostGresql generator for heinzelmannchen",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "q": "~1.0.0",
+    "heinzelmannchen-generator": "~1.0.0",
+    "heinzelmannchen-datatypes": "~1.0.1",
+    "mysql2json": "~0.1.1"
+  },
+  "devDependencies": {
+    "mock-fs": "~2.2.0",
+    "proxyquire": "~0.5.3",
+    "sinon-chai": "~2.5.0",
+    "sinon": "~1.9.0",
+    "mocha": "~1.17.1",
+    "mocha-as-promised": "~2.0.0",
+    "chai": "~1.9.0",
+    "chai-as-promised": "~4.1.0",
+    "underscore": "~1.6.0",
+    "chai-fuzzy": "~1.4.0",
+    "mocha-jshint": "0.0.7"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "integration": "mocha integrationTest --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-mysql.git"
+  },
+  "author": "Christoph Hermann & Sebastian Sprenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-mysql/issues"
+  },
+  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-gen-mysql"
+}
