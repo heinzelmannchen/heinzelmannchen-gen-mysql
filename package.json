@@ -1,7 +1,7 @@
 {
   "name": "heinzelmannchen-gen-mysql",
-  "version": "1.0.3",
-  "description": "PostGresql generator for heinzelmannchen",
+  "version": "1.0.4",
+  "description": "mysql generator for heinzelmannchen",
   "main": "index.js",
   "directories": {
     "test": "test"
