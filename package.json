@@ -10,7 +10,7 @@
     "q": "~1.0.0",
     "heinzelmannchen-generator": "~1.0.2",
     "heinzelmannchen-datatypes": "~1.0.3",
-    "mysql2json": "~0.1.1"
+    "mysql2json": "~1.0.0"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
